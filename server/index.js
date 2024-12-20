@@ -48,7 +48,7 @@ const storage = multer.diskStorage({
     cb(null, file.originalname);
   }
 });
-const upload = multer({ storage });/*mongodb+srv://asenuthisahansa:zJY22NehDDNmWaHt@cluster0.4uloh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 */
+const upload = multer({ storage });
 
 
 /* ROUTES WITH FILES */
